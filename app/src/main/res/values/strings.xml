@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">STUDYMATERIAL</string>
+    <string name="select_year">SELECT YEAR</string>
+    <string name="second_year">SECOND YEAR</string>
+    <string name="third_year">THIRD YEAR</string>
+    <string name="fourth_year">FOURTH YEAR</string>
+    <string name="first_year">FIRST YEAR</string>
+    <string name="book">book</string>
+    <string name="main_template">main template</string>
 </resources>
