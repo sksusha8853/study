@@ -7,4 +7,6 @@
     <string name="first_year">FIRST YEAR</string>
     <string name="book">book</string>
     <string name="main_template">main template</string>
+    <string name="batch_a">Batch A</string>
+    <string name="batch_b">Batch B</string>
 </resources>
