@@ -33,7 +33,7 @@ class BatchBActivity : AppCompatActivity() {
         }
         val me106Button: Button = findViewById(R.id.button19)
         me106Button.setOnClickListener{
-            val intent10 = Intent(Intent.ACTION_VIEW, Uri.parse("link for me105"))
+            val intent10 = Intent(Intent.ACTION_VIEW, Uri.parse("https://drive.google.com/drive/folders/1f4t4wnJV8u8eZh0pBtukUPQX17bMMtNy"))
             startActivity(intent10)
         }
         val bse102Button: Button = findViewById(R.id.button20)
