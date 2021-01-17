@@ -19,27 +19,27 @@ class BatchAActivity : AppCompatActivity() {
 
         val ph105Button: Button = findViewById(R.id.button10)
         ph105Button.setOnClickListener{
-            val intent1 = Intent(Intent.ACTION_VIEW, Uri.parse("link for ph105"))
+            val intent1 = Intent(Intent.ACTION_VIEW, Uri.parse("https://drive.google.com/drive/folders/1b888FHqoKV2BjOtTT0EDZacOE10isEnj?usp=sharing"))
             startActivity(intent1)
         }
         val hs159Button: Button = findViewById(R.id.button11)
         hs159Button.setOnClickListener{
-            val intent2 = Intent(Intent.ACTION_VIEW, Uri.parse("link for hs159"))
+            val intent2 = Intent(Intent.ACTION_VIEW, Uri.parse("https://drive.google.com/drive/folders/1eFK5OYjRSIPOuVI3jFzHM9fm5yDfsLgq?usp=sharing"))
             startActivity(intent2)
         }
         val ic153Button: Button = findViewById(R.id.button12)
         ic153Button.setOnClickListener{
-            val intent3 = Intent(Intent.ACTION_VIEW, Uri.parse("link for ic153"))
+            val intent3 = Intent(Intent.ACTION_VIEW, Uri.parse("https://drive.google.com/drive/folders/1-urP7sC6hqEaMCVi2WcxFqBAneoMaDTY?usp=sharing"))
             startActivity(intent3)
         }
         val ma105Button: Button = findViewById(R.id.button13)
         ma105Button.setOnClickListener{
-            val intent4 = Intent(Intent.ACTION_VIEW, Uri.parse("link for ma105"))
+            val intent4 = Intent(Intent.ACTION_VIEW, Uri.parse("https://drive.google.com/drive/folders/1o2-oDlFaOaFbQZntkuPA2eqrydFUDs0k?usp=sharing"))
             startActivity(intent4)
         }
         val ch103Button: Button = findViewById(R.id.button14)
         ch103Button.setOnClickListener{
-            val intent5 = Intent(Intent.ACTION_VIEW, Uri.parse("link for ch103"))
+            val intent5 = Intent(Intent.ACTION_VIEW, Uri.parse("https://drive.google.com/drive/folders/1PrCpZ6seGtWP1on-eNloTj4oU4c8cGZh?usp=sharing"))
             startActivity(intent5)
         }
 
