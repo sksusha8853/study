@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher"
         android:supportsRtl="true"
         android:theme="@style/Theme.STUDYMATERIAL">
-        <activity android:name=".BatchAActivity"></activity>
+        <activity android:name=".BatchBActivity"></activity>
+        <activity android:name=".BatchAActivity" />
         <activity android:name=".ThirdActivity" />
         <activity android:name=".SecondActivity" />
         <activity android:name=".MainActivity">

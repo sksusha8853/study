@@ -15,5 +15,11 @@ class ThirdActivity : AppCompatActivity() {
             val intent3 = Intent(this, BatchAActivity::class.java)
             startActivity(intent3)
         }
+
+        val batchBButton:Button=findViewById(R.id.button8)
+        batchBButton.setOnClickListener{
+            val intent4=Intent(this,BatchBActivity::class.java)
+            startActivity(intent4)
+        }
     }
 }
