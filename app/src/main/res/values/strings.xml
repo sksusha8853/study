@@ -20,5 +20,8 @@
     <string name="hs_108">HS 108</string>
     <string name="bse_102">BSE 102</string>
     <string name="me_106">ME 106</string>
+
+    <string name="first_semester">First Semester</string>
+    <string name="second_semester">Second Semester</string>
     <string name="todo">TODO</string>
 </resources>
