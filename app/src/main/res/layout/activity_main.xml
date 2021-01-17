@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:scaleX="3"
         android:scaleY="3"
-        android:text="@string/select_year"
+        android:text="SELECT  YEAR"
         android:textColor="#D81B60"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -21,16 +21,15 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.377" />
+        app:layout_constraintVertical_bias="0.345" />
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="408dp"
         android:layout_height="409dp"
-        android:contentDescription="@string/main_template"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.454"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
@@ -40,13 +39,12 @@
         android:id="@+id/imageView2"
         android:layout_width="420dp"
         android:layout_height="211dp"
-        android:contentDescription="@string/book"
         app:layout_constraintBottom_toBottomOf="@+id/imageView"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.555"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.08"
+        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/book_logo" />
 
     <Button
@@ -54,10 +52,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:scaleX="2"
-        android:text="@string/first_year"
+        android:text="FIRST YEAR"
         app:layout_constraintBottom_toBottomOf="@+id/imageView"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
@@ -65,7 +63,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:scaleX="2"
-        android:text="@string/second_year"
+        android:text="SECOND YEAR"
         app:layout_constraintBottom_toBottomOf="@+id/imageView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -77,7 +75,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:scaleX="2"
-        android:text="@string/third_year"
+        android:text="THIRD YEAR"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.506"
@@ -90,7 +88,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:scaleX="2"
-        android:text="@string/fourth_year"
+        android:text="FOURTH YEAR"
         app:layout_constraintBottom_toBottomOf="@+id/imageView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
